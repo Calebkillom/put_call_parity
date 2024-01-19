@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Call Midpoint   R-squared:                       0.931
+Model:                            OLS   Adj. R-squared:                  0.930
+Method:                 Least Squares   F-statistic:                     763.6
+Date:                Fri, 19 Jan 2024   Prob (F-statistic):           2.27e-66
+Time:                        13:34:19   Log-Likelihood:                -357.67
+No. Observations:                 116   AIC:                             721.3
+Df Residuals:                     113   BIC:                             729.6
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           90.1287      2.460     36.640      0.000      85.255      95.002
+Put Midpoint     1.8874      0.048     39.062      0.000       1.792       1.983
+Strike Price    -0.9371      0.030    -31.620      0.000      -0.996      -0.878
+==============================================================================
+Omnibus:                       91.263   Durbin-Watson:                   1.918
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              523.166
+Skew:                          -2.868   Prob(JB):                    2.49e-114
+Kurtosis:                      11.680   Cond. No.                         510.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
